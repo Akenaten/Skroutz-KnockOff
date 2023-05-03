@@ -1,0 +1,8 @@
+PRODUCES A WHITE DISC AROUND THE ELEMENT WHEN HOVERED OVER.
+
+.dummy:hover {
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+

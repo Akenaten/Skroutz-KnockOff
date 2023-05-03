@@ -1,0 +1,98 @@
+body {
+    background-color: #d6d6d6;
+}
+
+/* BASE LEVEL CONTAINER BOXES */
+
+#login-bar {
+    background-color: pink;
+    padding-left: 65%;
+}
+
+#search-bar {
+    text-align: center;
+    background-color: #9dc29e;
+    padding-bottom: 3rem;
+}
+
+#ads-section {
+    background-color: #c2a29d;
+    padding: 3rem 0;
+}
+
+#recent-view {
+    background-color: #aa8965;
+}
+
+#categories {
+    background-color: #039683;
+}
+
+#other {
+    background-color: #68ab31;
+}
+
+#contact {
+    background-color: #b68bdb;
+}
+
+
+/* ID STYLES */
+
+#searchContainer {
+    margin: 0 10%;
+}
+
+
+/* CLASS STYLES */
+
+.login-but {
+    margin: 0 1%;
+}
+
+
+.carousel-item
+{
+    height: 100px;
+    background-color: grey;
+}
+
+
+.carousel-holder{
+    margin: 0 8%;
+}
+
+.button-highlight {
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.image-holder{
+    margin-bottom: 3%;
+}
+
+.ad-items{
+    display:inline;
+    width: 100px;
+    
+}
+
+.dummy{
+    background-color:white;
+    border-radius: 2%;
+    border:none;
+}
+
+.dummy:hover{
+    box-shadow: 0 0 10px 2px black;
+}
+
+.adcat{
+    color:#bfbfbf;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: bold;
+}

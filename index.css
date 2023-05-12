@@ -82,6 +82,8 @@ body {
     background-color:white;
     border-radius: 2%;
     border:none;
+    width: 15%;
+    
 }
 
 .dummy:hover{

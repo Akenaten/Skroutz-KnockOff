@@ -106,7 +106,10 @@ function buildItemSlot(parent){
 function populateView(){
     var list = document.getElementById("recent-view").getElementsByTagName("ul")[0];
     //alert(list.innerText);
-    buildItemSlot(list);
+    for(var i = 0; i < 5; i++){
+        buildItemSlot(list);
+    }
+    
 }
 
 

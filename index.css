@@ -1,40 +1,51 @@
 body {
-    background-color: #d6d6d6;
+    background-color: black;
 }
 
 /* BASE LEVEL CONTAINER BOXES */
 
 #login-bar {
     background-color: pink;
+    background-color: #DFF2DA;
     padding-left: 65%;
 }
 
 #search-bar {
     text-align: center;
     background-color: #9dc29e;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 #ads-section {
     background-color: #c2a29d;
+    background-color: #C8D9C3;
     padding: 3rem 0;
 }
 
 #recent-view {
     background-color: #aa8965;
+    background-color: #EBFFE6;
+    
 }
 
 #categories {
     background-color: #039683;
+    background-color: #DFF2DA;
+    
 }
 
 #other {
     background-color: #68ab31;
-    padding: 1%;
+    background-color: #EBFFE6;
+    padding: 6% 1%;
+    
 }
 
 #contact {
     background-color: #b68bdb;
+    background-color: #A5B3A1;
+    padding: 3% 0;
 }
 
 
@@ -76,6 +87,7 @@ body {
 .ad-items{
     display:inline;
     width: 100px;
+    margin: 0 1%;
     
 }
 
@@ -101,14 +113,29 @@ body {
 }
 
 .dummy2 {
-    border-style: solid;
+    /* border-style: solid;
     border-color: pink;
-    text-align: center;
+    text-align: center; */
     
 }
 
 .icon-c{
-    color: #b3aeae;
+    color: #6A7367;
+    font-size: 30px;
+    padding: 0 3px;
+
 }
 
+.contact-sect {
+    /* border-style: solid;
+    border-color: purple; */
+}
+
+.appImages{
+    display: inline-block;
+}
+
+.magniglass-icon{
+    width: 5%;
+}
 

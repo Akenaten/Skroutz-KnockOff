@@ -30,6 +30,7 @@ body {
 
 #other {
     background-color: #68ab31;
+    padding: 1%;
 }
 
 #contact {
@@ -98,3 +99,16 @@ body {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.dummy2 {
+    border-style: solid;
+    border-color: pink;
+    text-align: center;
+    
+}
+
+.icon-c{
+    color: #b3aeae;
+}
+
+

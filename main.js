@@ -1,4 +1,5 @@
 const dummy = document.getElementById("ads-section");
+
 const item1 = {
     image: 'test-image.PNG',
     category: "Κουζίνες & Φούρνοι",
@@ -33,15 +34,7 @@ function test(){
 
 
 
-function addItem(item){
-    //SET IMAGE
-    //SET CATEGORY
-    //SET DESCRIPTION
-    //SET REVIEW
-    //SET PRICE
-    //SET RATINGS
 
-}
 
 function buildItemSlot(parent){
 
@@ -57,7 +50,8 @@ function buildItemSlot(parent){
     const price_div = document.createElement("div");
     const ratings_div = document.createElement("div");
 
-    const imageItem = document.createElement("image");
+    const imageItem = document.createElement("img");
+
     const adcat = document.createElement("p");
     const desc = document.createElement("p");
     const rev = document.createElement("p");
@@ -101,8 +95,9 @@ function buildItemSlot(parent){
     text_div.appendChild(ratings_div);
     ratings_div.appendChild(rate);
 
+    
     imageItem.toggleAttribute("src");
-    imageItem.setAttribute("src" , "stock-image.jpg");
+    imageItem.setAttribute("src" , "test-image.PNG");
 
 }
 
@@ -110,7 +105,7 @@ function buildItemSlot(parent){
 
 function populateView(){
     var list = document.getElementById("recent-view").getElementsByTagName("ul")[0];
-    alert(list.innerText);
+    //alert(list.innerText);
     buildItemSlot(list);
 }
 

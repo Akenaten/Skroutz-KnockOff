@@ -1,3 +1,4 @@
+// Useless comment
 const dummy = document.getElementById("ads-section");
 
 const item1 = {
